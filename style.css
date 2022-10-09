@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2? family = Open + Sans + Condensed: wght @ 300 & display = swap');
+
+body {
+    background: rgba(118, 118, 121);
+    background: linear-gradient(90deg, rgba(41, 0, 206, 0.4) 0%, rgb(116, 3, 116) 50%, rgba(197, 0, 171) 100%);
+    color: rgba(19,18, 18);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Open + Sans + Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h1:hover {
+    color: rgba(15, 82, 93);
+}
+
+table { 
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+img{
+    width: 70px;
+}
+
+th,
+td {
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+th {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+th:hover {
+    color: rgb(15, 82, 93);
+}
+
+td:hover {
+    background: rgb(41, 0, 206);
+    background: linear-gradient(45deg, rgb(41, 0, 206) 0%,rgb(116, 3, 116) 50%, rgba(197, 0, 171) 100%);
+    color: #fff;
+    width: 260px;
+    height: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
